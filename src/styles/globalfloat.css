@@ -1,0 +1,53 @@
+/* 页面css重复样式公共封装 */
+/* 减少重复代码 简化代码 提高性能 */
+.header-float{
+  width: 100%;
+  height: 100%;
+  display: flex; /*弹性布局能够扩展和收缩 flex 容器内的元素，以最大限度地填充可用空间*/
+  justify-content: space-between; /*两端对齐，盒子之间的间隔都相等*/
+  align-items: center; /*位于容器的中心*/
+}
+/*全绿 正方形*/
+.color-block-success {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  background-color: #7ec5b7;
+  border-radius: 2px;
+  border: 1px solid #7ec5b7;
+}
+/*变绿 内白 正方形*/
+.color-block-default {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #7ec5b7;
+}
+/*全白正方形*/
+.color-block-white {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
+/*底部右侧按钮*/
+/*.footer {*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    width: 100%;*/
+/*    height: 35px;*/
+/*    background-color: #fff;*/
+/*    z-index: 1000;*/
+/*}*/
+/*.content {*/
+/*  position: fixed;*/
+/*  right: 20px;*/
+/*}*/
